@@ -56,6 +56,6 @@ if (user_rand_num == user_inp_num){
     document.getElementById("para8").innerHTML = "Congratulations your number is " + user_inp_num + " and the secret number is " + user_rand_num;
 }
 else{
-    document.getElementById("para8").innerHTML = "Try Again";
+    document.getElementById("para7").innerHTML = "Try Again";
 }
 
